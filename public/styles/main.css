@@ -1,0 +1,96 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 35px;
+}
+
+section {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  width: 100%;
+  border-radius: 12px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 0px;
+  line-height: 24px;
+  color: hsl(224, 23%, 55%);
+}
+
+button {
+  width: 100%;
+  border: none;
+  font-size: 14px;
+}
+
+.proceedButton,
+.cancelButton {
+  margin-top: 20px;
+  padding: 15px 0px;
+}
+
+.proceedButton {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  border-radius: 9px;
+  box-shadow: 0px 5px 5px 5px hsla(225, 100%, 98%, 1);
+}
+
+.cancelButton {
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 23px;
+  padding: 10px 0px;
+}
+
+.musicIcon {
+  width: 48px;
+  padding: 0px 0px 0px 15px;
+  display: flex;
+}
+
+.pricingPlan {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-grow: 2;
+  padding: 0px 0px 0px 17px;
+}
+
+.pricingPlan > p {
+  padding: 0px;
+  font-size: 14px;
+}
+
+.pricingPlan > p:nth-of-type(1) {
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+.changeButtonContainer {
+  flex-grow: 3;
+}
+
+.changeButtonContainer > button {
+  text-decoration: underline;
+  font-size: 13px;
+  color: hsl(245, 75%, 52%);
+  background-color: hsl(225, 100%, 98%);
+}
