@@ -1,0 +1,9 @@
+body {
+  background-image: url("/pattern-background-mobile.svg");
+}
+
+@media (min-width: 600px) {
+  body {
+    background-image: url("/pattern-background-desktop.svg");
+  }
+}
