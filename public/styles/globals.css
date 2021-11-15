@@ -1,8 +1,37 @@
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: hsl(225, 100%, 94%);
   background-image: url("/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
 }
 
-@media (min-width: 600px) {
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 325px;
+  height: 575px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 20px 15px 1px hsla(223, 47%, 23%, 0.1);
+}
+
+h1,
+p,
+button,
+section {
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0px;
+}
+
+@media (min-width: 375px) {
   body {
     background-image: url("/pattern-background-desktop.svg");
   }
