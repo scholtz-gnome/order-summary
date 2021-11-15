@@ -1,0 +1,27 @@
+{
+  "name": "order-summary",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scholtz-gnome/order-summary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scholtz-gnome/order-summary/issues"
+  },
+  "homepage": "https://github.com/scholtz-gnome/order-summary#readme",
+  "devDependencies": {
+    "cypress": "^9.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
