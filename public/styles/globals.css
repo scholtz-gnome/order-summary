@@ -1,26 +1,40 @@
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --shadow-blue: hsl(225, 23%, 83%);
+}
+
 body {
+  height: 100vh;
+  margin: 0px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
-  margin: 0px;
+
   box-sizing: border-box;
-  background-color: hsl(225, 100%, 94%);
+
+  background-color: var(--pale-blue);
   background-image: url("/pattern-background-mobile.svg");
   background-repeat: no-repeat;
 }
 
 .container {
+  height: 575px;
+  max-width: 325px;
+  margin: 0 auto;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 325px;
-  height: 575px;
-  margin: 0 auto;
+
   background-color: white;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0px 20px 15px 1px hsla(223, 47%, 23%, 0.1);
+  box-shadow: 0px 13px 15px 1px var(--shadow-blue);
 }
 
 h1,
