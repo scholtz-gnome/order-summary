@@ -19,17 +19,22 @@
     />
 
     <link rel="stylesheet" href="/styles/globals.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/order-summary.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/main.css" type="text/css" />
-    <link rel="stylesheet" href="/styles/plan.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/pricing-plan.css" type="text/css" />
 
     <title>Order Summary</title>
   </head>
 
   <body>
-    <div class="container">
-      <header>
-        <img src="/illustration-hero.svg" alt="Dancing with headphones" />
+    <div class="orderSummary">
+      <header class="header">
+        <img
+          class="header__image"
+          src="/illustration-hero.svg"
+          alt="Dancing with headphones"
+        />
       </header>
 
       <main>
@@ -40,19 +45,19 @@
           any device anywhere you like!
         </p>
 
-        <section>
-          <div>
-            <img class="musicIcon" src="/icon-music.svg" alt="music note" />
+        <section class="pricingPlan">
+          <img
+            class="pricingPlan__icon"
+            src="/icon-music.svg"
+            alt="music note"
+          />
+
+          <div class="pricingPlan__info">
+            <p class="pricingPlan__title">Annual Plan</p>
+            <p class="pricingPlan__price">$59.99/year</p>
           </div>
 
-          <div class="pricingPlan">
-            <p>Annual Plan</p>
-            <p>$59.99/year</p>
-          </div>
-
-          <div class="changeButtonContainer">
-            <button>Change</button>
-          </div>
+          <button class="pricingPlan__change">Change</button>
         </section>
 
         <button class="proceedButton">Proceed to Payment</button>

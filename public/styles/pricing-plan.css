@@ -1,0 +1,47 @@
+.pricingPlan {
+  background-color: var(--very-pale-blue);
+  display: flex;
+  width: 100%;
+  border-radius: 12px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.pricingPlan__icon {
+  width: 48px;
+  padding: 0px 0px 0px 15px;
+}
+
+.pricingPlan__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-grow: 1;
+  padding: 0px 0px 0px 17px;
+}
+
+.pricingPlan__title,
+.pricingPlan__price {
+  padding: 0px;
+  font-size: 14px;
+}
+
+.pricingPlan__title {
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.pricingPlan__change {
+  flex: 2;
+  font-size: 13px;
+  color: var(--bright-blue);
+  background-color: var(--very-pale-blue);
+  text-decoration: underline;
+}
+
+.pricingPlan__change:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
